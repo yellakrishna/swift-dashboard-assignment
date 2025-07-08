@@ -5,6 +5,7 @@ import "./Profile.css";
 const Profile = () => {
   const { userId } = useParams();
   const [user, setUser] = useState(null);
+//   const [user, setUser] = useState(null);
 
   useEffect(() => {
     fetch(`https://jsonplaceholder.typicode.com/users/${userId}`)
