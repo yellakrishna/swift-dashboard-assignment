@@ -1,0 +1,46 @@
+.table-wrapper {
+  overflow-x: auto;
+  width: 100%;
+}
+
+.truncate-comment {
+  max-width: 250px;        
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  font-size: 15px;
+  background-color: #fff;
+}
+
+thead {
+  background-color: #f2f2f2;
+}
+
+th, td {
+  padding: 14px;
+  border-bottom: 1px solid #eaeaea;
+  text-align: left;
+}
+
+th {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+tbody tr:hover {
+  background-color: #fafafa;
+}
+
+.clickable-row {
+  cursor: pointer;
+}
+.clickable-row:hover {
+  background-color: #f0f0f0;
+}
